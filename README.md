@@ -5,4 +5,4 @@ This is a Laravel Package for Payment Gateway Integration.
 
 ```composer require tamnnit/laravel-payment```
 
-```php artisan vendor:publish --provider="Laravel\Payment\OmnipayServiceProvider" --tag="config"```
+```php artisan vendor:publish --provider="Laravel\Payment\PaymentServiceProvider" --tag="config"```
