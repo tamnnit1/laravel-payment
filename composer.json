@@ -2,6 +2,7 @@
     "name": "tamnnit/laravel-payment",
     "type": "library",
     "license": "MIT",
+    "description": "laravel payment",
     "authors": [
         {
             "name": "Nguyen Nhat Tam",
