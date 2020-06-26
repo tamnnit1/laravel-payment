@@ -24,7 +24,7 @@ class PaymentServiceProvider extends ServiceProvider
     protected function publishConfigs(): void
     {
         $this->publishes([
-            __DIR__.'/../config/laravel-payment.php' => $this->app->configPath('laravel-payment.php'),
+            __DIR__.'/../config/laravel-omnipay.php' => $this->app->configPath('laravel-payment.php'),
         ], 'config');
     }
 }
